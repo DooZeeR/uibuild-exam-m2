@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const formHTML = `
     <form action="">
         <div><h1>Visszajelzés</h1></div>
@@ -25,17 +11,10 @@ const formHTML = `
 
 
 
-
-
 function loadEvent() {
     const rootElement = document.getElementById('root');
 
     rootElement.insertAdjacentHTML('beforeend', formHTML);
-
-
-
-
-
 }
   
 window.addEventListener("load", loadEvent);
